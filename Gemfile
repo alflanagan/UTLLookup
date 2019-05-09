@@ -22,7 +22,8 @@ gem 'rails', '~> 5.2.3'
 gem 'rails_admin', '~> 1.4'
 # Use SCSS for stylesheets
 gem 'sassc-rails', '~> 2.1'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+# Turbolinks makes navigating your web application faster.
+# Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -43,7 +44,8 @@ group :development do
   gem 'ruby-debug-ide', '~> 0.6.1'
   gem 'ruby-lint', '~> 2.3'
   gem 'solargraph', '~> 0.32.2'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  # Spring speeds up development by keeping your application running in the background.
+  # Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
