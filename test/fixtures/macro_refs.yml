@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  utlfile: one
+  start: 1
+  line: 1
+  text: MyText
+  macro_name: MyText
+
+two:
+  utlfile: two
+  start: 1
+  line: 1
+  text: MyText
+  macro_name: MyText

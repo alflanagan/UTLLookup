@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  townnewssite: one
+  pkg_name: MyString
+  zip_name: MyText
+  version: MyString
+  is_certified: false
+  last_download: 2019-05-08 12:17:13
+
+two:
+  townnewssite: two
+  pkg_name: MyString
+  zip_name: MyText
+  version: MyString
+  is_certified: false
+  last_download: 2019-05-08 12:17:13
