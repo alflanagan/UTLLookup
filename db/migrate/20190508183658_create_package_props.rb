@@ -7,6 +7,6 @@ class CreatePackageProps < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+    add_index :package_props, [:package_id, :key], unique: true
   end
-  add_index :package_props, [:package_id, :key], unique: true
 end

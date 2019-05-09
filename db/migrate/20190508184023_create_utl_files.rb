@@ -7,6 +7,6 @@ class CreateUtlFiles < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+    add_index :utl_files, [:package_id, :file_path], unique: true
   end
-  add_index :utl_files, [:package_id, :file_path], unique: true
 end

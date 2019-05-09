@@ -12,8 +12,8 @@ class CreatePackages < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
-  end
   # unique constraints on packages too complex to define here
   # certified packages: [:name, :version]
   # custom packages: [:townnews_site_id, :name, :last_download]
+  end
 end

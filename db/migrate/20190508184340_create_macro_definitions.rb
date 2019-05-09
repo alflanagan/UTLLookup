@@ -10,6 +10,6 @@ class CreateMacroDefinitions < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+    add_index :macro_definitions, [:utl_file_id, :start], unique: true
   end
-  add_index :macro_definitions, [:utl_file_id, :start], unique: true
 end

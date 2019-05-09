@@ -23,25 +23,28 @@ ActiveRecord::Schema.define(version: 2019_05_08_184422) do
   end
 
   create_table "macro_definitions", force: :cascade do |t|
-    t.bigint "utl_file_id"
+    t.bigint "utl_file_id", null: false
     t.text "text"
-    t.string "name"
-    t.integer "start"
+    t.string "name", null: false
+    t.integer "start", null: false
     t.integer "end"
     t.integer "line"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_macro_definitions_on_name"
+    t.index ["utl_file_id", "start"], name: "index_macro_definitions_on_utl_file_id_and_start", unique: true
     t.index ["utl_file_id"], name: "index_macro_definitions_on_utl_file_id"
   end
 
   create_table "macro_refs", force: :cascade do |t|
-    t.bigint "utl_file_id"
-    t.integer "start"
+    t.bigint "utl_file_id", null: false
+    t.integer "start", null: false
     t.integer "line"
     t.text "text"
-    t.text "macro_name"
+    t.text "macro_name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["utl_file_id", "start", "macro_name"], name: "index_macro_refs_on_utl_file_id_and_start_and_macro_name", unique: true
     t.index ["utl_file_id"], name: "index_macro_refs_on_utl_file_id"
   end
 
@@ -49,40 +52,46 @@ ActiveRecord::Schema.define(version: 2019_05_08_184422) do
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_newspapers_on_name", unique: true
   end
 
   create_table "package_deps", force: :cascade do |t|
-    t.bigint "package_id"
+    t.bigint "package_id", null: false
     t.string "dep_name"
-    t.integer "dep_pkg"
+    t.integer "dep_pkg", null: false
     t.string "dep_version"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["dep_name"], name: "index_package_deps_on_dep_name"
+    t.index ["dep_pkg"], name: "index_package_deps_on_dep_pkg"
     t.index ["package_id"], name: "index_package_deps_on_package_id"
   end
 
   create_table "package_props", force: :cascade do |t|
-    t.bigint "package_id"
-    t.string "key"
+    t.bigint "package_id", null: false
+    t.string "key", null: false
     t.text "value"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["package_id", "key"], name: "index_package_props_on_package_id_and_key", unique: true
     t.index ["package_id"], name: "index_package_props_on_package_id"
   end
 
   create_table "packages", force: :cascade do |t|
-    t.string "name"
+    t.string "name", null: false
     t.string "version"
     t.boolean "is_certified"
     t.bigint "application_id"
     t.datetime "last_download"
     t.text "disk_directory"
     t.bigint "townnews_site_id"
-    t.string "pkg_type"
+    t.string "pkg_type", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["application_id"], name: "index_packages_on_application_id"
+    t.index ["last_download"], name: "index_packages_on_last_download"
     t.index ["townnews_site_id"], name: "index_packages_on_townnews_site_id"
+    t.index ["version"], name: "index_packages_on_version"
   end
 
   create_table "townnews_site_meta_data", force: :cascade do |t|
@@ -94,11 +103,12 @@ ActiveRecord::Schema.define(version: 2019_05_08_184422) do
     t.datetime "last_download"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["townnews_site_id", "pkg_name", "version", "last_download"], name: "index_tnsmd_primary_key", unique: true
     t.index ["townnews_site_id"], name: "index_townnews_site_meta_data_on_townnews_site_id"
   end
 
   create_table "townnews_sites", force: :cascade do |t|
-    t.string "URL"
+    t.string "URL", null: false
     t.string "name"
     t.bigint "newspaper_id"
     t.datetime "created_at", null: false
@@ -108,11 +118,12 @@ ActiveRecord::Schema.define(version: 2019_05_08_184422) do
   end
 
   create_table "utl_files", force: :cascade do |t|
-    t.text "file_path"
+    t.text "file_path", null: false
     t.bigint "package_id"
     t.text "file_text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["package_id", "file_path"], name: "index_utl_files_on_package_id_and_file_path", unique: true
     t.index ["package_id"], name: "index_utl_files_on_package_id"
   end
 
