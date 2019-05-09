@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
 class TownnewsSite < ApplicationRecord
-  belongs_to :newspaper
+  validates :URL, presence: true, uniqueness: true
+  has_one :newspaper
 end
