@@ -46,7 +46,6 @@ Style/ClassAndModuleChildren:
 Style/Documentation:
   Exclude:
     - 'db/migrate/*'
-    - 'app/models/*'
     - 'test/test_helper.rb'
     - 'test/application_system_test_case.rb'
     - 'config/application.rb'
