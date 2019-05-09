@@ -1,0 +1,757 @@
+[{
+  "model": "papers.townnewssite",
+  "pk": 1,
+  "fields": {
+    "URL": "http://agnet.net",
+    "name": "agNET",
+    "paper": 19
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 2,
+  "fields": {
+    "URL": "http://atlanticcityweekly.com",
+    "name": "atlanticcityweekly.com",
+    "paper": 7
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 3,
+  "fields": {
+    "URL": "http://brazossports.com",
+    "name": "BrazosSports",
+    "paper": 2
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 4,
+  "fields": {
+    "URL": "http://clarindaherald.com",
+    "name": "clarindaherald.com",
+    "paper": 12
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 5,
+  "fields": {
+    "URL": "http://dailyprogress.com",
+    "name": "dailyprogress.com",
+    "paper": 22
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 6,
+  "fields": {
+    "URL": "http://dbrnews.com",
+    "name": "Bulletin Review Online",
+    "paper": 10
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 7,
+  "fields": {
+    "URL": "http://dothaneagle.com",
+    "name": "dothaneagle.com",
+    "paper": 38
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 8,
+  "fields": {
+    "URL": "http://fredericksburg.com",
+    "name": "fredericksburg.com",
+    "paper": 27
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 9,
+  "fields": {
+    "URL": "http://fredericksburgrelocationguide.com",
+    "name": "Fredericksburg Relocation Guide",
+    "paper": 27
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 10,
+  "fields": {
+    "URL": "http://godanriver.com",
+    "name": "goDanRiver.com",
+    "paper": 31
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 11,
+  "fields": {
+    "URL": "http://greensboro.com",
+    "name": "N&R greensboro.com",
+    "paper": 17
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 12,
+  "fields": {
+    "URL": "http://heraldcourier.com",
+    "name": "heraldcourier.com",
+    "paper": 24
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 13,
+  "fields": {
+    "URL": "http://hickoryrecord.com",
+    "name": "HDR hickoryrecord.com",
+    "paper": 39
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 14,
+  "fields": {
+    "URL": "http://independenttribune.com",
+    "name": "it",
+    "paper": 42
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 15,
+  "fields": {
+    "URL": "http://jcfloridan.com",
+    "name": "jcfloridan.com",
+    "paper": 6
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 16,
+  "fields": {
+    "URL": "http://journalnow.com",
+    "name": "journalnow.com",
+    "paper": 37
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 17,
+  "fields": {
+    "URL": "http://kearneyhub.com",
+    "name": "Kearney Hub",
+    "paper": 30
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 18,
+  "fields": {
+    "URL": "http://lexch.com",
+    "name": "lexch.com",
+    "paper": 43
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 19,
+  "fields": {
+    "URL": "http://livewellnebraska.com",
+    "name": "livewell nebraska",
+    "paper": 33
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 20,
+  "fields": {
+    "URL": "http://loganwoodbine.com",
+    "name": "loganwoodbine.com",
+    "paper": 32
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 21,
+  "fields": {
+    "URL": "http://martinsvillebulletin.com",
+    "name": "martinsvillebulletin.com",
+    "paper": 13
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 22,
+  "fields": {
+    "URL": "http://mcdowellnews.com",
+    "name": "mcdowellnews.com",
+    "paper": 18
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 23,
+  "fields": {
+    "URL": "http://mooresvilletribune.com",
+    "name": "Mooresville Tribune",
+    "paper": 3
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 24,
+  "fields": {
+    "URL": "http://morganton.com",
+    "name": "The News Herald",
+    "paper": 40
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 25,
+  "fields": {
+    "URL": "http://myaggienation.com",
+    "name": "My Aggie Nation",
+    "paper": 2
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 26,
+  "fields": {
+    "URL": "http://neprepzone.com",
+    "name": "NE Prep Zone",
+    "paper": 33
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 27,
+  "fields": {
+    "URL": "http://newsadvance.com",
+    "name": "The News & Advance",
+    "paper": 35
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 28,
+  "fields": {
+    "URL": "http://nonpareilonline.com",
+    "name": "The Daily Nonpareil",
+    "paper": 41
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 29,
+  "fields": {
+    "URL": "http://nptelegraph.com",
+    "name": "nptelegraph.com",
+    "paper": 21
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 30,
+  "fields": {
+    "URL": "http://oanow.com",
+    "name": "oanow.com",
+    "paper": 11
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 31,
+  "fields": {
+    "URL": "http://omaha.com",
+    "name": "omaha.com",
+    "paper": 33
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 32,
+  "fields": {
+    "URL": "http://pressofatlanticcity.com",
+    "name": "pressofatlanticcity.com",
+    "paper": 9
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 33,
+  "fields": {
+    "URL": "http://richmond.com",
+    "name": "RTD",
+    "paper": 25
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 34,
+  "fields": {
+    "URL": "http://roanoke.com",
+    "name": "The Roanoke Times",
+    "paper": 8
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 35,
+  "fields": {
+    "URL": "http://scnow.com",
+    "name": "scnow.com",
+    "paper": 15
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 36,
+  "fields": {
+    "URL": "http://shopbrazos.com",
+    "name": "shopbrazos.com",
+    "paper": 2
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 37,
+  "fields": {
+    "URL": "http://shorenewstoday.com",
+    "name": "Shore News Today",
+    "paper": 9
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 38,
+  "fields": {
+    "URL": "http://smithmountainlake.com",
+    "name": "smithmountainlake.com",
+    "paper": 16
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 39,
+  "fields": {
+    "URL": "http://starherald.com",
+    "name": "starherald.com",
+    "paper": 28
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 40,
+  "fields": {
+    "URL": "http://statesville.com",
+    "name": "Statesville Record & Landmark",
+    "paper": 5
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 41,
+  "fields": {
+    "URL": "http://swvatoday.com",
+    "name": "swvatoday.com",
+    "paper": 1
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 42,
+  "fields": {
+    "URL": "http://thecornernews.com",
+    "name": "The Corner",
+    "paper": 36
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 43,
+  "fields": {
+    "URL": "http://theeagle.com",
+    "name": "The Eagle",
+    "paper": 2
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 44,
+  "fields": {
+    "URL": "http://thefranklinnewspost.com",
+    "name": "The Franklin News-Post",
+    "paper": 26
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 45,
+  "fields": {
+    "URL": "http://theindependent.com",
+    "name": "The Grand Island Independent",
+    "paper": 4
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 46,
+  "fields": {
+    "URL": "http://tulsaworld.com",
+    "name": "Tulsa World",
+    "paper": 29
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 47,
+  "fields": {
+    "URL": "http://valleynewstoday.com",
+    "name": "The Valley News",
+    "paper": 23
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 48,
+  "fields": {
+    "URL": "http://wacotrib.com",
+    "name": "WacoTrib.com",
+    "paper": 14
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 49,
+  "fields": {
+    "URL": "http://wahoo-ashland-waverly.com",
+    "name": "Wahoo Newspaper",
+    "paper": 34
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 50,
+  "fields": {
+    "URL": "http://yorknewstimes.com",
+    "name": "York News-Times",
+    "paper": 20
+  }
+}, {
+  "model": "papers.townnewssite",
+  "pk": 51,
+  "fields": {
+    "URL": "http://townnews.com",
+    "name": "certified",
+    "paper": 44
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 1,
+  "fields": {
+    "name": "Wytheville Enterprise"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 2,
+  "fields": {
+    "name": "Bryan-College Station Eagle"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 3,
+  "fields": {
+    "name": "Mooresville Tribune"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 4,
+  "fields": {
+    "name": "Grand Island Independent"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 5,
+  "fields": {
+    "name": "Statesville Record & Landmark"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 6,
+  "fields": {
+    "name": "Jackson County Floridan"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 7,
+  "fields": {
+    "name": "Atlantic City Weekly"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 8,
+  "fields": {
+    "name": "Roanoke Times"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 9,
+  "fields": {
+    "name": "Press of Atlantic City"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 10,
+  "fields": {
+    "name": "Dennison Bulletin Review"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 11,
+  "fields": {
+    "name": "Opelika-Auburn News"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 12,
+  "fields": {
+    "name": "Clarinda Herald-Journal"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 13,
+  "fields": {
+    "name": "Martinsville Bulletin"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 14,
+  "fields": {
+    "name": "Waco Tribune-Herald"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 15,
+  "fields": {
+    "name": "Florence Morning News"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 16,
+  "fields": {
+    "name": "Laker Media"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 17,
+  "fields": {
+    "name": "Greensboro News & Record"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 18,
+  "fields": {
+    "name": "McDowell News"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 19,
+  "fields": {
+    "name": "agNET Ag News & Commodities"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 20,
+  "fields": {
+    "name": "York News-Times"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 21,
+  "fields": {
+    "name": "North Platte Telegraph"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 22,
+  "fields": {
+    "name": "Daily Progress"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 23,
+  "fields": {
+    "name": "Valley News"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 24,
+  "fields": {
+    "name": "Bristol Herald Courier"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 25,
+  "fields": {
+    "name": "Richmond Times-Dispatch"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 26,
+  "fields": {
+    "name": "Franklin News-Post"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 27,
+  "fields": {
+    "name": "Free Lance-Star"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 28,
+  "fields": {
+    "name": "Scottsbluff Star-Herald"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 29,
+  "fields": {
+    "name": "Tulsa World"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 30,
+  "fields": {
+    "name": "Kearney Hub"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 31,
+  "fields": {
+    "name": "Danville Register & Bee"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 32,
+  "fields": {
+    "name": "Logan Herald-Observer / Woodbine Twiner"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 33,
+  "fields": {
+    "name": "Omaha World-Herald"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 34,
+  "fields": {
+    "name": "Suburban Newspapers"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 35,
+  "fields": {
+    "name": "News & Advance"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 36,
+  "fields": {
+    "name": "Corner News"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 37,
+  "fields": {
+    "name": "Winston-Salem Journal"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 38,
+  "fields": {
+    "name": "Dothan Eagle"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 39,
+  "fields": {
+    "name": "Hickory Daily Record"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 40,
+  "fields": {
+    "name": "News Herald"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 41,
+  "fields": {
+    "name": "Daily Nonpareil"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 42,
+  "fields": {
+    "name": "Independent Tribune"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 43,
+  "fields": {
+    "name": "Lexington Clipper-Herald"
+  }
+}, {
+  "model": "papers.newspaper",
+  "pk": 44,
+  "fields": {
+    "name": "Townnews BLOX CMS"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 1,
+  "fields": {
+    "name": "adowl"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 2,
+  "fields": {
+    "name": "business"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 3,
+  "fields": {
+    "name": "calendar"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 4,
+  "fields": {
+    "name": "classifieds"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 5,
+  "fields": {
+    "name": "editorial"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 6,
+  "fields": {
+    "name": "eedition"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 7,
+  "fields": {
+    "name": "electionsstats"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 8,
+  "fields": {
+    "name": "form"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 9,
+  "fields": {
+    "name": "global"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 10,
+  "fields": {
+    "name": "mailinglist"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 11,
+  "fields": {
+    "name": "search"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 12,
+  "fields": {
+    "name": "sportsstats"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 13,
+  "fields": {
+    "name": "staticpages"
+  }
+}, {
+  "model": "utl_files.application",
+  "pk": 14,
+  "fields": {
+    "name": "user"
+  }
+}]
