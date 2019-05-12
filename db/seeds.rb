@@ -11,7 +11,7 @@
 require 'json'
 
 records = open('db/seed_data.json') do |f|
-  JSON.parse(f)
+	JSON.parse(f.read())
 end
 
 papersxref = {}
