@@ -15,8 +15,8 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+console.log('Hello World from Webpacker')
+
 import '../appplication/images/index'
 import '../appplication/stylesheets/index'
 import '../appplication/javascripts/index'
-
-console.log('Hello World from Webpacker')

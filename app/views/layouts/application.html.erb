@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>UTLLookup</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,7 +14,17 @@
   </head>
 
   <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <h3 class="app-header text-center">Townnews Template Cross-Reference</h3>
+        </div>
+        <%= yield %>
+      </div>
+      <div class="navbar navbar-fixed-bottom" id="footer">
+        <p class="django-ver">Powered by: <span class="rails-ver">Ruby on Rails <%= Rails.version %></span></p>
+      </div>
+    </main>
     <div id="jquery_tell"></div>
-    <%= yield %>
   </body>
 </html>

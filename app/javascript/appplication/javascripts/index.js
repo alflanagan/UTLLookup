@@ -1,12 +1,10 @@
-import $ from 'jquery'
+import jstree from 'jstree'
 import Rails from 'rails-ujs'
-import Turbolinks from 'turbolinks'
 import * as ActiveStorage from 'activestorage'
 
+console.log("hello from javascript/application/javascripts/index")
+
 Rails.start()
-Turbolinks.start()
 ActiveStorage.start()
 
-$(() => {
-  $("#jquery_tell").append("<p>jQuery is loaded.</p>")
-})
+console.log("goodbye from javascript/application/javascripts/index")
