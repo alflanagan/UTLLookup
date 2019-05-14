@@ -1,6 +1,7 @@
 import jstree from 'jstree'
 import Rails from 'rails-ujs'
 import * as ActiveStorage from 'activestorage'
+import {} from './utl_files_common'
 
 console.log("hello from javascript/application/javascripts/index")
 
