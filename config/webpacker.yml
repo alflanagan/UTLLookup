@@ -11,10 +11,10 @@ default: &default
 
   # Additional paths webpack should lookup modules
   # ['app/assets', 'engine/foo/app/assets']
-  resolved_paths: ['app/javascript/appplication/stylesheets',
-                   'app/javascript/appplication/javascripts',
-                   'app/javascript/appplication/images',
-                   'app/javascript/appplication/fonts' ]
+  resolved_paths: ['app/javascript/application/stylesheets',
+                   'app/javascript/application/javascripts',
+                   'app/javascript/application/images',
+                   'app/javascript/application/fonts' ]
 
   # Reload manifest.json on all requests so we reload latest compiled packs
   cache_manifest: false
