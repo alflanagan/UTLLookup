@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   resources :newspapers
   resources :townnews_sites
   resources :townnews_site_meta_data
+  resources :utl_files
   # not :applications, that's fixed data
 end
